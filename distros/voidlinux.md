@@ -4,7 +4,7 @@ Void Linux
 
 ### Rank: #{{rating}}
 
-### Website: [https://www.voidlinux.eu/][1]
+### Website: [https://www.voidlinux.org/][1]
 
 ### IRC:
 {{irc_channel}} on {{irc_network}} with {{irc_users}} users online
@@ -14,4 +14,4 @@ Void is a general purpose operating system, based on the monolithic Linux® kern
 
 It is available for the Intel x86®, ARM® and MIPS® processor architectures; Software packages can be built natively or cross compiling through the XBPS source packages collection.
 
-[1]: https://www.voidlinux.eu/ "Void Linux"
+[1]: https://www.voidlinux.org/ "Void Linux"

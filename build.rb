@@ -78,7 +78,7 @@ index_body = Markdown.new(
 ).to_html
 f = File.new('index.html','w')
 f.write(
-  Mustache.render(page_template, ratings: ratings, body: index_body, title: 'Distro Ratings', date: date)
+  Mustache.render(page_template, ratings: ratings, body: index_body, title: '', date: date)
 )
 f.close()
 

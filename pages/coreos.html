@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <title>Linux/Unix Distro Ratings Distro Ratings</title>
+        <title>Linux/Unix Distro Ratings CoreOS</title>
 
         <link rel="stylesheet" href="/css/minimal.css">
         <meta name="viewport" content="width=device-width">
@@ -378,13 +378,27 @@
                 on 2019-05-07 01:55:14 +0300 with Markdown engine kramdown (1.16.2)
                   using options {}
   -->
-<p>Welcome to <strong>Distro Ratings</strong>, community led website that tries to rank <strong>Linux</strong>/<strong>Unix</strong> distributions based on their popularity and widespread use.</p>
+<h1 id="coreos">CoreOS</h1>
+<p><a href="https://coreos.com/" title="CoreOS"><img src="/images/coreos.png" alt="CoreOS" /></a></p>
 
-<p>Currently we rank up distributions based on active <strong>IRC</strong> users count. That’s because all major distributions have official support channels and because <strong>IRC</strong> is still very popular among tech-savvy people who make up the major user base. One might argue that this doesn’t reflects entire picture of how popular and widespread a distribution is, but currently this is our only way and it doesn’t means that it might not change in the future.</p>
+<h3 id="rank-30">Rank: #30</h3>
 
-<p><strong>IRC</strong> statistics are updated weekly and entire project source code is hosted on github so anyone can double check all the numbers.</p>
+<h3 id="website-httpscoreoscom1">Website: <a href="https://coreos.com/" title="CoreOS">https://coreos.com/</a></h3>
 
-<p>This project is still in progress of data collection, especially that of correct and official distribution logo/website/description information, and openly welcomes any contribution that would improve it’s authenticity. Feel free to fork and submit your pull requests</p>
+<h3 id="irc">IRC:</h3>
+<p>#coreos on Freenode with 134 users online</p>
+
+<h3 id="description">Description</h3>
+<p>Container Linux by CoreOS (formerly CoreOS Linux) is an open-source lightweight operating system based on the Linux kernel and designed for providing infrastructure to clustered deployments, while focusing on automation, ease of application deployment, security, reliability and scalability. As an operating system, Container Linux provides only the minimal functionality required for deploying applications inside software containers, together with built-in mechanisms for service discovery and configuration sharing.</p>
+
+<p>Container Linux shares foundations with Gentoo Linux, Chrome OS and Chromium OS, through a common software development kit (SDK). Container Linux adds new functionality and customization to this shared foundation to support server hardware and use cases.</p>
+
+<p>Container Linux provides no package manager as a way for distributing payload applications, requiring instead all applications to run inside their containers. Serving as a single control host, a Container Linux instance uses the underlying operating-system-level virtualization features of the Linux kernel to create and configure multiple containers that perform as isolated Linux systems. That way, resource partitioning between containers is performed through multiple isolated userspace instances, instead of using a hypervisor and providing full-fledged virtual machines. This approach relies on the Linux kernel’s cgroups and namespaces functionalities, which together provide abilities to limit, account and isolate resource usage (CPU, memory, disk I/O, etc.) for the collections of userspace processes.</p>
+
+<p>Initially, Container Linux exclusively used Docker as a component providing an additional layer of abstraction and interface to the operating-system-level virtualization features of the Linux kernel, as well as providing a standardized format for containers that allows applications to run in different environments. In December 2014, CoreOS released and started to support rkt (initially released as Rocket) as an alternative to Docker, providing through it another standardized format of the application-container images, the related definition of the container runtime environment, and a protocol for discovering and retrieving container images. CoreOS provides rkt as an implementation of the so-called app container (appc) specification that describes required properties of the application container image (ACI); CoreOS initiated appc and ACI as an independent committee-steered set of specifications, aiming at having them become part of the vendor- and operating-system-independent Open Container Initiative (OCI; initially named the Open Container Project or OCP) containerization standard, which was announced in June 2015.</p>
+
+<p>Container Linux uses ebuild scripts from Gentoo Linux for automated compilation of its system components, and uses systemd as its primary init system with tight integration between systemd and various Container Linux’s internal mechanisms</p>
+
 <!-- === end markdown block === -->
 
             </section>

@@ -101,7 +101,8 @@ freenode_channels = [
         '#steamOS',
         '#hyperbola',
         '#endless',
-        '#kaosx'
+        '#kaosx',
+        '#crux'
 ]
 
 distro_map = {}

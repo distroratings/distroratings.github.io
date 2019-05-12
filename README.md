@@ -1,3 +1,5 @@
+![Distro Ratings](/images/logo.png)
+
 Welcome to **Distro Ratings**, community led website that tries to rank **Linux**/**Unix** distributions based on their popularity and widespread use.
 
 Currently we rank up distributions based on active **IRC** users count. That's because all major distributions have official support channels and because **IRC** is still very popular among tech-savvy people who make up the major user base. One might argue that this doesn't reflects entire picture of how popular and widespread a distribution is, but currently this is our only way and it doesn't means that it might not change in the future.

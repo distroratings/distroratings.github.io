@@ -199,6 +199,8 @@ irc.get_channel("#kali-linux")
 irc.get_channel("#alpine-linux")
 irc.get_channel("#android-x86")
 irc.get_channel("#manjaro")
+irc.get_channel("#parabola")
+irc.get_channel("#Solus")
 irc.close()
 
 # Linux Mint (this guys use separate IRC channel, Germans I guess)
